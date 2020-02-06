@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss.css">
+</head>
+<body>
+    <ul class="block-menu">
+        <li><a href="home.html" class="three-d">
+          
+            <span aria-hidden="true" class="three-d-box">
+                <span class="front">Home</span>
+     
+            </span>
+        </a></li>
+        <li><a href="music.html" class="three-d">
+            
+            <span aria-hidden="true" class="three-d-box">
+                <span class="front">music</span>
+              
+            </span>
+        </a></li>
+        <li><a href="gallery.html" class="three-d">
+        
+            <span aria-hidden="true" class="three-d-box">
+                <span class="front"> gallery </span>
+         
+        
+        </a></li>
+      
+    </ul>
+    <img class="logo" src="logo.png">
+
+    <h1 style="font-size: 60px;" id="titre"> <span style="color:black">Play</span><span style="color:#02b9ce">list</span></h1 >
+   <div class="input"> 
+    <input id="push-input" type="text" placeholder="Entre le lien de music">  <button id="push-button" onclick="Push()">Push</button>
+    <button id="pop-button" onclick="Pop()">delete</button><br> <br>  
+            <button  id="top-button"   onclick="up()" class="prev">prev</button>
+            <div> <audio   class="play" src="#" id="result" autoplay controls></audio>  </div> 
+            <button id="bottom-button"   onclick="down()" class="next"> next</button>
+  </div>
+  <div class="liste">
+      liste of music
+<p >
+      1.mp3 <br>
+      2.mp3  <br>
+      3.mp3  <br>
+      4.mp3  <br>
+      4.mp3 <br>
+    </p>
+  </div>
+  <div class="footer">
+    Copyright 2020
+</div>
+
+   
+    
+     <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss.css">
+</head>
+<body>
+    <ul class="block-menu">
+        <li><a href="home.html" class="three-d">
+  
+            <span aria-hidden="true" class="three-d-box">
+                <span class="front">Home</span>
+              
+            </span>
+        </a></li>
+        <li><a href="music.html" class="three-d">
+        
+            <span aria-hidden="true" class="three-d-box">
+                <span class="front">music</span>
+            </span>
+        </a></li>
+        <li><a href="gallery.html" class="three-d">
+       
+            <span aria-hidden="true" class="three-d-box"></span>
+                <span class="front"> Gallery </span>
+                
+            </span>
+        </a></li>
+      
+    </ul>
+    <img class="logo" src="logo.png">
+    <div class="contienu">
+        <h1 style="font-size: 60px;" id="titre"> <span style="color:black">Gal</span><span style="color:#02b9ce">lery</span></h1 >
+        <input type="text" class="enqueue-input" id="push-input" placeholder="Entre le lien de image"><br>
+     <div class="buttunpush">  
+        <button onclick="Push()" id="push-button">push</button>
+        <button onclick="Pop()" id="pop-button">pop</button>
+    </div>
+   
+        <button class="butunprev" id="bottom-button2" onclick="down()" >PREV</button>   <button class="butunnext" id="top-button2" onclick="up()"  >NEXT</button>
+        <h3><b>Result: </b><img src="#" height="600px" width="100%" id="result" alt=""></h3>
+ 
+    </div>
+
+    <div class="footer1">
+        Copyright 2020
+    </div>
+
+    
+     <script src="gallery.js"></script>
+</body>
+</html>
